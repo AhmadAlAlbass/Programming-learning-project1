@@ -69,3 +69,57 @@ body {
       rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
+  .card-info {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 1em 2em;
+  }
+  .card-info h1 {
+    font-family: "Allura", serif;
+    font-size: 5rem;
+    color: var(--dark-green);
+    align-self: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .card-info p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    align-self: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    line-height: 22px;
+  }
+  .card-info a {
+    display: grid;
+    grid-template-columns: max-content 20px;
+    align-items: center;
+    column-gap: 7px;
+    color: var(--dark-green);
+    font-size: 0.85rem;
+    font-weight: bold;
+    align-self: center;
+    justify-self: flex-end;
+    transform: translateX(0px);
+    transition: transform 0.3s 0.1s ease-out;
+  }
+  .card-info a:hover {
+    transform: translateX(5px);
+  }
+  .card-info a:hover svg {
+    transform: translateX(5px);
+  }
+  .card-info svg {
+    width: 20px;
+    height: 10px;
+    transform: translateX(0px);
+    transition: transform 0.3s ease-out;
+  }
+  .card-info svg line {
+    stroke: var(--dark-green);
+  }
+  
+  .card-photo {
+    width: 450px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+  }
