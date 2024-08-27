@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #ecfaec;
+  --dark-green: #166639;
+  --white: #ffffff;
+  --black: #202020;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--green);
+  background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+  color: var(--black);
+}
 .container {
     width: 100%;
     max-width: 900px;
