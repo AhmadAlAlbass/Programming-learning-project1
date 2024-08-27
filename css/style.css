@@ -151,3 +151,29 @@ body {
   .card-photo a:hover svg {
     transform: translateX(5px);
   }
+  .card-photo svg {
+    width: 20px;
+    height: 10px;
+    transform: translateX(0px);
+    transition: transform 0.3s ease-out;
+  }
+  .card-photo svg line {
+    stroke: var(--white);
+    stroke-width: 2;
+  }
+  .card-photo .mask {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    z-index: 5;
+    background-color: var(--white);
+  }
+  #mask-1 {
+    left: 0;
+    transform: translateY(-100%);
+  }
+  #mask-2 {
+    right: 0;
+    transform: translateY(100%);
+  }
