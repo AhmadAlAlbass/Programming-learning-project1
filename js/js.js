@@ -8,33 +8,33 @@ createApp({
           id: 1,
           title: "Cincinnati",
           desc:
-            "In different heights and shapes, the four versions of Floema low tables offer a variety of surfaces to satisfy different needs and uses in a contract environment, from work to moments of relaxation.",
+            "Python is a programming language widely used in network applications, software development, data science, and machine learning (ML). Developers use Python because it is efficient, easy to learn, and can run on many different platforms.",
           photo:
-            "https://images.unsplash.com/photo-1649011327045-624a1bd2c3e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80"
+            "https://w0.peakpx.com/wallpaper/185/1/HD-wallpaper-python-coding-programming.jpg"
         },
         {
           id: 2,
           title: "Daytona",
           desc:
-            "The Circle Coffee table from Wendelbo emulates almost a visual trick. A frame where mass and gravity is suspended, and the slim and delicate structure support the marble top, like a hovering platform.",
+            "Java is a general-purpose, object-oriented, and platform-independent programming language, which means that Java programs can run on any device that supports Java .",
           photo:
-            "https://images.unsplash.com/photo-1615529182904-14819c35db37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            "https://play-lh.googleusercontent.com/gSvS4Npz1pg8C4OFlZtxdPgbOwFgB5xyEh9VhCLCtvYvgqKAY-dPVTMyiDELjwCeQg"
         },
         {
           id: 3,
           title: "Indiana",
           desc:
-            "With an appearance that is at once light and elegant, the Workshop Coffee Table fits perfectly into any living room, serving as a traditional coffee table as well as side table.",
+            "C# is a programming language designed to run on the Common Language Infrastructure (CLI). C# is designed to be a simple, modern, general-purpose, object-oriented language.",
           photo:
-            "https://images.unsplash.com/flagged/photo-1588262516915-e342186ecdf6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            "https://c4.wallpaperflare.com/wallpaper/182/470/396/code-wallpaper-preview.jpg"
         },
         {
           id: 4,
           title: "Amarillo",
           desc:
-            "Made from sustainably sourced solid American Oak, the Duo Table is composed of two seperate tops joined together on one side. The tops are solid and carved out to create a gentle lip. ",
+            "C++ is an extension of the C programming language, adding object-oriented programming features such as objects and classes. The language allows programmers to write programs with high performance and memory efficiency, and it is also used in developing operating systems, software applications, video games, embedded software, and other applications.",
           photo:
-            "https://images.unsplash.com/photo-1622372738946-62e02505feb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=832&q=80"
+            "https://c4.wallpaperflare.com/wallpaper/935/690/342/c-plus-plus-c-code-wallpaper-preview.jpg"
         }
       ],
       currentNum: 0
